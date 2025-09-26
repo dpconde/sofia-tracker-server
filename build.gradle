@@ -10,9 +10,8 @@ version = '0.0.1-SNAPSHOT'
 description = 'Server for Sofía Tracker'
 
 java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
-	}
+	sourceCompatibility = '17'
+	targetCompatibility = '17'
 }
 
 repositories {
